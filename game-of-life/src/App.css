@@ -1,0 +1,121 @@
+
+.App{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(193, 228, 252);
+}
+.head-div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+  margin-top: 0;
+
+}
+.head-nav{
+  text-decoration: none;
+  font-size: 2rem;
+  margin-top: 1.5%;
+  color: red;
+}
+.game{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.rule{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+
+}
+.bnt{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 0;
+}
+.preset{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5%;
+}
+.stop-bnt{
+  padding: 1%;
+  border-radius: 10px 10px;
+}
+.preset-but{
+  font-size: 1.2rem;
+  padding: 1%;
+  border-radius: 10px 10px;
+}
+.alive{
+  border:  1px solid;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+.dead{
+  border:  1px solid;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+.generation{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.about-info{
+  font-size: 1.2rem;
+  padding: 1% 2%;
+}
+.still-life{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.h3-life{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1%;  
+  font-size: 1.5rem;
+
+}
+img{
+  width: 18%;
+}
+.still-life-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  
+}
+.Oscill{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Spaceships{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.space-img{
+  width: 23%;
+}
+.rule-info{
+  font-size: 1.2rem;
+}
